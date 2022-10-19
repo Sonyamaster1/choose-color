@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+}
+.col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.col h2 {
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  transition: background 0.3s;
+}
+.col h2:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.col button {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 1.5rem;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  transition: background 0.3s;
+}
+.col button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
