@@ -13,7 +13,6 @@
 * Java Script
 * CSS
 * HTML
-* Адаптивная верстка
 
 ## Клонируйте данный репозиторий и определите ваше сегодняшнее настроение:
 `git clone https://github.com/Sonyamaster1/choose-color.git`
